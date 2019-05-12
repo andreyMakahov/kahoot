@@ -1,0 +1,16 @@
+.container {
+  padding: 35px;
+  border: 2px dashed red;
+  margin: 20px;
+  text-align: center;
+  width: 30px;
+  font-size: 30px;
+  user-select: none;
+}
+
+
+@media screen and (max-width: 414px) {
+  .container {
+    padding: 10px;
+  }
+}

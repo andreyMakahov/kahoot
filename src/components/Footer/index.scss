@@ -1,0 +1,22 @@
+@import "../../variables";
+
+.container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 24px;
+  height: $footerHeight;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.button {
+  text-align: center;
+  background: red;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+}

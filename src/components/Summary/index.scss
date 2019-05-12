@@ -1,0 +1,19 @@
+.container {
+  border-top: 1px solid #ccc;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.label {
+  margin-right: 3px;
+}
+.statistics {
+  display: flex;
+  justify-content: space-between;
+}
+.score {
+  font-weight: 600;
+}

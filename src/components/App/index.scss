@@ -1,0 +1,43 @@
+@import "../../variables";
+
+.container {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.body {
+  width: 100%;
+  display: flex;
+}
+
+.playGround {
+  width: 60%;
+  max-height: calc(100vh - #{$headerHeight + $footerHeight});
+  overflow: auto;
+}
+
+.statistics {
+  width: 40%;
+}
+
+.header {
+  font-size: 30px;
+  display: flex;
+  height: $headerHeight;
+  line-height: 50px;
+  text-align: center;
+  background: #0542B9;
+  color: #fff;
+}
+
+.button {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: red;
+  color: #fff;
+  font-size: 26px;
+}
